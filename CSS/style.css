@@ -2,12 +2,12 @@ body{margin: 0px;padding:0px;background:url(../images/back.png) repeat-x fixed; 
 .hidden{display: none;}
 #nav-top{width: 1200px;height: 80px;background: #50BDFB;margin: 0 auto;}
 #nav-top .myicon{float:left;height: 80px;width: 300px;margin-left: 30px;font-size: 35px;line-height: 80px;font-family: "Arial";color: yellow;font-weight: bold;}
-#nav-top .navbar{float: left;margin-left: 250px;height: 80px;width: 600px;}
+#nav-top .navbar{float: left;margin-left: 250px;height: 80px;width: 600px;padding: 0px;}
 #nav-top .navbar ul{height: 80px;width: 600px;margin: 0px;padding: 0px;padding-top: 10px;}
 #nav-top .navbar ul li{width: 120px;height: 80px;line-height: 80px;float: left;list-style: none;text-align: center;margin-top: -10px;}
 #nav-top .navbar ul li:hover{background: #008AD4 url(../images/bottom.png) left 50px top 0px no-repeat;cursor: pointer; }
 #nav-top .navbar ul li:hover a{color: white;}
-#nav-top .navbar ul li a{text-decoration: none;color: black;font-family: "Arial Black";}
+#nav-top .navbar ul li a{text-decoration: none;color: black;font-family: "Arial Black";font-size: 18px;}
 #nav-top .navbar ul li:active a{color: red;}
 
 .info,.skills,.social,.contact{width: 1200px;background: white;border-radius: 30px;-webkit-border-radius:30px;-moz-border-radius:30px;margin: 35px auto;-moz-box-shadow:-5px -5px 5px #999 inset;-webkit-box-shadow:-5px -5px 5px #999 inset;box-shadow:-5px -5px 5px #999 inset;}
@@ -18,8 +18,10 @@ body{margin: 0px;padding:0px;background:url(../images/back.png) repeat-x fixed; 
 #nav-middle .major,#nav-middle .school{margin-left: 50px;margin-top: 25px;text-align: left;height: 80px;line-height: 80px;font-size: 35px;font-family: "Arial";color: #B7BDCB;}
 #nav-middle .photo{float:left; width: 300px;height: 300px;margin-left: 60px;margin-top: 30px;}
 
-#nav-middle .skills{height: 800px;}
-#nav-middle .content{width: 1000px;height: 600px;margin: 0px auto;padding-top:50px;}
-#nav-middle .entrys{width: 1000px;height: 80px;margin-left: 25px;}
+#nav-middle .skills{height: 800px;padding-top:25px;}
+#nav-middle .hea{width: 1000px;height: 80px;line-height:80px;margin:0px auto;padding-left:10px;font-size: 30px;font-family: "Arial Black";text-align: left;font-weight: bold;}
+#nav-middle .content{width: 1000px;height: 500px;margin: 0px auto;padding-top:20px;}
+#nav-middle .entrys{width: 1000px;height: 80px;padding-left: 25px;}
+#nav-middle .entrys:hover span{color: red;}
 #nav-middle .entrys span{width:160px;line-height: 80px;font-size: 30px;font-family: "Arial";float:left;}
 #nav-middle .progress{float: left;width: 700px;height: 35px;margin-top: 20px;margin-left: 50px;}
